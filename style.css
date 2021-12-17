@@ -1,0 +1,226 @@
+html, body, ul, ol, li, h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Segoe UI';
+}
+
+header {
+    height: 80px;
+    width: 100%;
+    background-color: #3B185F;
+    color: white;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    opacity: 0.7;
+}
+
+.header-left {
+    float: left;
+    padding: 27px 0 27px 30px;
+}
+
+.header-right li{
+    list-style: none;
+    float: right;
+    padding: 27px 33px 27px 0;
+}
+
+.header-behance{
+    opacity: 1;
+    color: white;
+}
+
+.header-insta{
+    opacity: 1;
+    color: white;
+}
+
+.header-behance:hover {
+    color: #FEC260;
+    text-shadow: tomato;
+}
+
+.header-insta:hover {
+    color: #FEC260;
+    text-shadow: tomato;
+}
+
+.top-wrapper {
+    padding: 100px 0 100px 0;
+    background-image: url(pawel-czerwinski-2CDRjyQw8aQ-unsplash.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+.pp{
+    border-radius: 50%;
+    padding-bottom: 20px;
+    animation-name: animation1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animation1 {
+    0% {box-shadow: 0px 0px 40px 30px violet;}
+    25% {box-shadow: 0px 0px 40px 30px tomato;}
+    50% {box-shadow: 0px 0px 40px 30px turquoise;}
+    100% {box-shadow: 0px 0px 40px 30px yellowgreen;}
+}
+
+.container h1{
+    color: white;
+}
+
+p {
+    color: whitesmoke;
+}
+
+.greeting{
+    padding-top: 40px;
+}
+
+.first-text{
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.art-wrapper {
+    height: 640px;
+    padding: 70px 0 70px 0;
+    background-color: #A12568;
+    text-align: center;
+}
+
+.art {
+    padding-top: 50px;
+    float: left;
+    width: 50%;
+    text-align: center;
+    position: relative;
+}
+
+.art-pic {
+    width: 100%;
+    margin: 0%;
+}
+
+.art-pic img {
+    opacity: 0.75;
+    border-radius: 25%;
+}
+
+.art-pic img:hover {
+    box-shadow: 8px 8px 10px rgb(253, 230, 98);
+    opacity: 1;
+}
+
+.heading h2{
+    color: whitesmoke;
+}
+
+.art-title{
+    position: absolute;
+    top: 100%;
+    font-size: 30px;
+    width: 101%;
+}
+
+.art-description{
+    position: absolute;
+    padding-top: 10px;
+    font-weight: lighter;
+    text-align: center;
+    top: 108%;
+    width: 100%;
+}
+
+.clear {
+    clear: left;
+}
+
+.contact-container{
+    height: 580px;
+    background-color: #FEC260;
+    text-align: center;
+}
+
+.contact-info{
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+
+.sc {
+    padding: 10px 20px 10px 20px;
+    background-color: #3B185F;
+    border-radius: 20px;
+    color: white;
+}
+
+.sc:hover{
+    background-color: #A12568;
+    box-shadow: 4px 4px 5px #3B185F;
+}
+
+.instagram {
+    margin-right: 20px;
+}
+
+.email-message{
+    color: #3B185F;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 14px;
+}
+
+.send-email p {
+    color: #3B185F;
+}
+
+.contact-submit {
+    background-color: #A12568;
+    color: white;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.contact-submit:hover {
+    box-shadow: 4px 4px 5px #3B185F;
+    background-color: #c20168;
+}
+
+.contact-submit:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+
+input, textarea {
+    width: 200px;
+    margin: 10px 0 15px 0;
+    padding: 10px;
+    font-size: 16px;
+}
+
+footer {
+    height: 62px;
+    background-color: #3B185F;
+}
+
+.credit {
+    float: left;
+    padding: 20px 0 20px 30px;
+}
+
+.year {
+    float: right;
+    padding: 20px 20px 20px 0;
+}

@@ -1,0 +1,64 @@
+/*For tablets*/
+@media (max-width: 1000px){
+    .first-text{
+        width: 100%;
+        margin: 0;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    .second-text{
+        width: 100%;
+        margin: 0;
+        padding-right: 30px;
+        padding-left: 30px;
+        text-align: center;
+    }
+
+    .art-wrapper{
+        height: 500px;
+        padding: 50px 0 40px 0;
+    }
+
+    .art-pic img{
+        height: 220px;
+        width: 200px;
+    }
+
+    .art {
+        width: 50%;
+        text-align: center;
+    }
+
+    .heading h2{
+        font-size: 18px;
+    }
+    .art-title{
+        text-align: center;
+        font-size: 21px;
+    }
+    .art-description{
+        padding-top: 10px 10px 10px 20px;
+        text-align: center;
+        font-size: 14px;
+    }
+}
+
+/*For smartphone*/
+@media (max-width: 670px){
+    .art {
+        width: 100%;
+    }
+
+    .art-pic img{
+        height: 198px;
+        width: 180px;
+    }
+
+    .art-wrapper {
+        height: 740px;
+    }
+
+    .secondart{
+        margin-top: 40px;
+    }
+}
